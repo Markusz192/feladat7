@@ -1,11 +1,16 @@
 body {
   background-color: rgb(111, 111, 111);
   background-size: cover;
+  background-image: url(Back.jpg);
+  background-repeat: no-repeat;
 }
 
 p {
   margin: 5px;
   text-indent: 20px;
+  text-align: justify;
+  line-height: 120%;
+  text-indent: 0px;
 }
 
 #content {
@@ -13,6 +18,10 @@ p {
   margin-top: 40px;
   background-color: rgba(255, 255, 255, 0.85);
   border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  width: 80%;
 }
 
 a {
@@ -37,4 +46,41 @@ li {
 table {
   width: 80%;
   margin: auto;
+}
+
+span
+{
+  color: #087AC8;
+}
+
+#feladat14
+{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 1.8rem;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+th, td
+{
+  border: 1px solid gray;
+  text-align: center;
+}
+
+td
+{
+  padding: 5px;
+}
+
+th
+{
+  background-color: #087AC8;
+  color: white;
+}
+
+a:hover
+{
+  color: red;
+  text-decoration: none;
 }
